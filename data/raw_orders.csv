@@ -1,0 +1,41 @@
+order_id,order_date,customer_name,product,amount
+O001,2026-10-01,  ravi kumar ,Notebook,250
+O002,2026-10-01,Anitha Reddy,Pen,100
+O003,2026-10-01,John Smith,Bag,500
+O004,2026-10-02,Priya Sharma,Bottle,300
+O005,2026-10-02,David Lee,Notebook,250
+O006,2026-10-02,ravi kumar,Pen,100
+O007,2026-10-03,Anitha Reddy,Bag,500
+O008,2026-10-03,  JOHN SMITH,Bottle,300
+O009,2026-10-03,Priya Sharma,Notebook,250
+O010,2026-10-04,David Lee,Pen,100
+O011,2026-10-04,Ravi Kumar,Bag,500
+O012,2026-10-04,Anitha Reddy,Bottle,300
+O013,2026-10-05,John Smith,Notebook,250
+O014,2026-10-05,Priya Sharma,Pen,100
+O015,2026-10-05,David Lee,Bag,500
+O016,2026-10-01,Priya Sharma,Bottle,300
+O017,2026-10-02,John Smith,Notebook,250
+O018,2026-10-03,David Lee,Pen,100
+O019,2026-10-04,anitha reddy ,Notebook,250
+O020,2026-10-05,Ravi Kumar,Bottle,300
+O021,2026-10-01,David Lee,Bag,500
+O022,2026-10-02,Anitha Reddy,Notebook,250
+O023,2026-10-03,Ravi Kumar,Pen,100
+O024,2026-10-04,Priya Sharma,Bag,500
+O025,2026-10-05,John Smith,Bottle,300
+O026,2026-10-01,Anitha Reddy,Pen,100
+O027,2026-10-02,Priya Sharma,Notebook,250
+O028,2026-10-03,David Lee,Bag,500
+O029,2026-10-04,John Smith,Pen,100
+O030,2026-10-05,  priya sharma,Bottle,300
+O002,2026-10-01,Anitha Reddy,Pen,120
+O005,2026-10-02,David Lee,Notebook,260
+O011,2026-10-04,Ravi Kumar,Bag,520
+O031,2026-10-02,Ravi Kumar,Notebook,
+O032,2026-10-03,John Smith,Pen,
+O033,2026-10-04,Anitha Reddy,Bottle,-50
+O034,2026-10-01,  david lee ,Notebook,250
+O035,2026-10-02,Priya Sharma,Bag,500
+O036,2026-10-03,Ravi Kumar,Bottle,300
+O037,2026-10-05,Anitha Reddy,Notebook,250
