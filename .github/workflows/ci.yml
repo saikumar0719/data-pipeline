@@ -1,0 +1,23 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      # No pip install step: this project uses only the Python standard library.
+      - name: Run the pipeline
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python pipeline.py
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -m unittest discover -s tests -v
+      - name: Check all Python files compile
+        run: python -m py_compile pipeline.py step1_read_raw.py step2_clean.py step3_load_sql.py step4_reports.py tests/test_pipeline.py
