@@ -1,4 +1,4 @@
-# My First Data Pipeline - a small shop story
+# Data Pipeline - a small shop story
 
 This is a learning project. It is built and tested locally on my
 computer. It is not production. No cloud, no cost, nothing to install.
@@ -32,7 +32,7 @@ Each step is one small Python file: `step1_read_raw.py`,
 ## Run it - exact commands
 
 ```bash
-cd my-first-data-pipeline
+cd data-pipeline
 python3 pipeline.py
 ```
 
