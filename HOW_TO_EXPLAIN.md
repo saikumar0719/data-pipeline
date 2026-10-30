@@ -12,7 +12,7 @@ with SQL. In the end, I could say the true total sales: 9750."
 
 ## 1-minute version
 
-"This is my first data project. I started with a raw file of 40 shop
+"This is a small data project. I started with a raw file of 40 shop
 orders. Raw means messy, just as it came. I wrote four small steps.
 Step one, I read the file. Step two, I cleaned it: I fixed names,
 removed duplicate orders, and dropped orders with missing or negative
